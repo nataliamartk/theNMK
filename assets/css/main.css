@@ -294,8 +294,16 @@ body.is-touch .main {
     }
 }
 
+.separator {
+    height: 10px;
+    background-color: black;
+    display: block;
+    width: 2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-
+/* intro section */
 #intro {
     color: #d05607;
     font-family: Futura-bold;
@@ -319,12 +327,13 @@ body.is-touch .main {
         font-size: 60pt;
     }
 
-    #intro h4 {
+    #intro h2 {
         font-size: 31pt;
         margin-top: -10px;
     }
 }
 
+/* bio section */
 #bio {
     color: #d05607;
     background-color: #e6e6e6;
@@ -344,12 +353,7 @@ body.is-touch .main {
 }
 
 #bio .separator {
-    height: 10px;
     background-color: #d05607;
-    display: block;
-    width: 3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 #bio .email-1 {
@@ -368,17 +372,69 @@ body.is-touch .main {
 }
 
 @media screen and (max-width: 480px) {
-    #bio h2 {
-        font-size: 31pt;
-    }
-
     #bio p {
-        font-size: 10pt;
+        font-size: 11pt;
         margin-bottom: 10px;
         width: 100%;
     }
 
     #bio img {
         display: none;
+    }
+}
+
+/* news section */
+#news {
+    background-color: #d05607;
+    color: white;
+    font-family: Futura-bold;
+    text-align: left;
+}
+
+#news h1 {
+    font-size: 38pt;
+}
+
+#news h2 {
+    color: black;
+    font-size: 22pt;
+}
+
+#news p {
+    font-family: Futura-book;
+    font-size: 12pt;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#news .separator {
+    background-color: white;
+}
+
+#news .events {
+    margin-top: 50px;
+}
+
+#news .event {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 18px 0px;
+}
+
+.event time {
+    font-family: Futura-bold;
+}
+
+.event .description {
+    font-family: Futura-book;
+}
+
+@media screen and (max-width: 480px) {
+    #news p {
+        font-family: Futura-book;
+        font-size: 11pt;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
