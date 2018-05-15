@@ -430,7 +430,7 @@ body.is-touch .main {
     font-family: Futura-book;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
     #news p {
         font-family: Futura-book;
         font-size: 11pt;
