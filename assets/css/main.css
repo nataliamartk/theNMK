@@ -305,7 +305,7 @@ body.is-touch .main {
     font-size: 80pt;
 }
 
-#intro h4 {
+#intro h2 {
     font-size: 42pt;
     margin-top: -10px;
 }
@@ -332,7 +332,7 @@ body.is-touch .main {
     text-align: left;
 }
 
-#bio h2 {
+#bio h1 {
     font-size: 38pt;
 }
 
@@ -341,6 +341,30 @@ body.is-touch .main {
     font-size: 12pt;
     width: 50%;
     margin-bottom: 10px;
+}
+
+#bio .separator {
+    height: 10px;
+    background-color: #d05607;
+    display: block;
+    width: 3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#bio .email-1 {
+    font-family: Futura-book;
+    font-size: 25pt;
+}
+
+#bio .email-2 {
+    font-size: 22pt;
+}
+
+#bio img {
+    float: right;
+    width: 75%;
+    margin-right: -180px;
 }
 
 @media screen and (max-width: 480px) {
@@ -352,5 +376,9 @@ body.is-touch .main {
         font-size: 10pt;
         margin-bottom: 10px;
         width: 100%;
+    }
+
+    #bio img {
+        display: none;
     }
 }
