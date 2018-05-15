@@ -217,30 +217,6 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     background: #f5f6f7;
 }
 
-/*.main.dark {*/
-    /*color: #ffffff;*/
-/*}*/
-
-/*.main.dark a {*/
-    /*color: inherit;*/
-/*}*/
-
-/*.main.dark .button.style2 {*/
-    /*border-color: #ffffff;*/
-/*}*/
-
-/*.main.dark .button.style2:hover {*/
-    /*background-color: rgba(255, 255, 255, 0.125);*/
-/*}*/
-
-/*.main.dark .button.style2:active {*/
-    /*background-color: rgba(255, 255, 255, 0.25);*/
-/*}*/
-
-/*.main.dark .button.style2.down {*/
-    /*background-image: url("images/dark-arrow.svg");*/
-/*}*/
-
 body.is-touch .main {
     background-attachment: scroll !important;
 }
@@ -344,7 +320,37 @@ body.is-touch .main {
     }
 
     #intro h4 {
-        font-size: 22pt;
+        font-size: 31pt;
         margin-top: -10px;
+    }
+}
+
+#bio {
+    color: #d05607;
+    background-color: #e6e6e6;
+    font-family: Futura-bold;
+    text-align: left;
+}
+
+#bio h2 {
+    font-size: 38pt;
+}
+
+#bio p {
+    font-family: Futura-book;
+    font-size: 12pt;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #bio h2 {
+        font-size: 31pt;
+    }
+
+    #bio p {
+        font-size: 10pt;
+        margin-bottom: 10px;
+        width: 100%;
     }
 }
