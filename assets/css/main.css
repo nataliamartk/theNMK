@@ -360,6 +360,7 @@ body.is-touch .main {
 }
 
 #logo footer {
+    font-family: Futura-book;
     position: absolute;
     bottom: 5%;
 }
