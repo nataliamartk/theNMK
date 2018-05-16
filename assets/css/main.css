@@ -1,3 +1,16 @@
+/*
+
+    by Roly Vicaria
+
+    with some inspiration from
+
+    Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+ */
+
+
 @font-face {
     font-family: "Futura-book";
     src: url("../fonts/FuturaBookRegular.otf");
@@ -86,7 +99,7 @@ body {
 }
 
 .main > .content {
-    width: 45em;
+    width: 55em;
     max-width: calc(100% - 4em);
     margin: 0 auto;
 }
@@ -168,6 +181,11 @@ body.is-touch .main {
     margin-bottom: 30px;
 }
 
+.social-media a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
 /* intro section */
 #intro {
     color: #d05607;
@@ -212,10 +230,6 @@ body.is-touch .main {
     text-align: left;
 }
 
-#bio .content {
-    width: 55em;
-}
-
 .bio-col {
     display: inline-block;
     width: 40%;
@@ -229,6 +243,11 @@ body.is-touch .main {
     font-family: Futura-book;
     font-size: 12pt;
     margin-bottom: 10px;
+}
+
+#bio a {
+    color: gray;
+    text-decoration: none;
 }
 
 #bio .separator {
@@ -251,9 +270,8 @@ body.is-touch .main {
     margin-right: -180px;
 }
 
-#bio .social-media a {
-    color: gray;
-    text-decoration: none;
+#bio em {
+    font-style: italic;
 }
 
 @media screen and (max-width: 736px) {
@@ -339,4 +357,14 @@ body.is-touch .main {
         width: 100%;
         margin-bottom: 10px;
     }
+}
+
+#logo footer {
+    position: absolute;
+    bottom: 5%;
+}
+
+#logo footer img {
+    width: 20px;
+    vertical-align: middle;
 }
