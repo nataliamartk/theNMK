@@ -251,6 +251,11 @@ body.is-touch .main {
     margin-right: -180px;
 }
 
+#bio .social-media a {
+    color: gray;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 736px) {
     .bio-col {
         width: 45%;
