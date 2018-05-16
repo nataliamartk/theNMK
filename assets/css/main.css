@@ -345,6 +345,7 @@ body.is-touch .main {
     color: black;
     padding: 15px;
     margin: 18px 0px;
+    display: block;
 }
 
 .news-item .title {
@@ -370,6 +371,7 @@ body.is-touch .main {
     font-family: Futura-book;
     position: absolute;
     bottom: 5%;
+    font-size: x-small;
 }
 
 #logo footer img {
