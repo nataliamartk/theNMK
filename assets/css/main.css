@@ -212,6 +212,15 @@ body.is-touch .main {
     text-align: left;
 }
 
+#bio .content {
+    width: 55em;
+}
+
+.bio-col {
+    display: inline-block;
+    width: 40%;
+}
+
 #bio h1 {
     font-size: 38pt;
 }
@@ -219,7 +228,6 @@ body.is-touch .main {
 #bio p {
     font-family: Futura-book;
     font-size: 12pt;
-    width: 50%;
     margin-bottom: 10px;
 }
 
@@ -238,11 +246,29 @@ body.is-touch .main {
 
 #bio img {
     float: right;
-    width: 75%;
+    width: 60%;
+    margin-top: 100px;
     margin-right: -180px;
 }
 
+@media screen and (max-width: 736px) {
+    .bio-col {
+        width: 45%;
+    }
+
+    #bio img {
+        float: right;
+        width: 60%;
+        margin-top: 100px;
+        margin-right: -110px;
+    }
+}
+
 @media screen and (max-width: 480px) {
+    .bio-col {
+        width: 100%;
+    }
+
     #bio p {
         font-size: 11pt;
         margin-bottom: 10px;
