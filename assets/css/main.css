@@ -331,23 +331,30 @@ body.is-touch .main {
     background-color: white;
 }
 
-#news .events {
+#news .news-list {
     margin-top: 50px;
 }
 
-#news .event {
+#news .news-list a {
+    color: black;
+    text-decoration: none;
+}
+
+#news .news-item {
     background-color: white;
     color: black;
     padding: 15px;
     margin: 18px 0px;
 }
 
-.event time {
+.news-item .title {
     font-family: Futura-bold;
+    text-transform: uppercase;
 }
 
-.event .description {
+.news-item .description {
     font-family: Futura-book;
+    text-transform: lowercase;
 }
 
 @media screen and (max-width: 736px) {
