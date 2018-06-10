@@ -211,6 +211,10 @@ body.is-touch .main {
     bottom: 10%;
 }
 
+#intro img {
+    width: 70px;
+}
+
 @media screen and (max-width: 480px) {
     #intro h1 {
         font-size: 60pt;
@@ -372,6 +376,10 @@ body.is-touch .main {
     position: absolute;
     bottom: 5%;
     font-size: x-small;
+}
+
+#logo img {
+    width: 150px;
 }
 
 #logo footer img {
