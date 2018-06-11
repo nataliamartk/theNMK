@@ -371,6 +371,60 @@ body.is-touch .main {
     }
 }
 
+/* Quote of the day */
+#quote {
+    background-color: #e6e6e6;
+    font-family: Futura-bold;
+}
+
+#quote h1 {
+    font-size: 38pt;
+    color: #d05607;
+}
+
+#quote .separator {
+    background-color: #d05607;
+}
+
+.quote-col1 {
+    display: inline-block;
+    width: 45%;
+    color: #d05607;
+    text-align: left;
+}
+
+.quote-col1 p {
+    font-family: Futura-book;
+    font-size: 25pt;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    color: black;
+    font-size: 25pt;
+}
+
+.quote-col2 {
+    display: inline-block;
+    width: 45%;
+}
+
+.quote-col2 img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+    .quote-col1 {
+        display: block;
+        width: 100%;
+    }
+
+    .quote-col2 {
+        display: block;
+        width: 100%;
+    }
+}
+
 #logo footer {
     font-family: Futura-book;
     position: absolute;
