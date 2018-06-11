@@ -373,56 +373,55 @@ body.is-touch .main {
 
 /* Quote of the day */
 #quote {
+    color: #d05607;
     background-color: #e6e6e6;
     font-family: Futura-bold;
+    text-align: left;
+}
+
+.quote-col {
+    display: inline-block;
+    width: 40%;
 }
 
 #quote h1 {
     font-size: 38pt;
-    color: #d05607;
+}
+
+#quote p {
+    font-family: Futura-book;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+#quote a {
+    color: gray;
+    text-decoration: none;
 }
 
 #quote .separator {
     background-color: #d05607;
 }
 
-.quote-col1 {
-    display: inline-block;
-    width: 45%;
-    color: #d05607;
-    text-align: left;
-}
-
-.quote-col1 p {
+#quote .email-1 {
     font-family: Futura-book;
     font-size: 25pt;
-    margin-bottom: 15px;
 }
 
-.quote-author {
-    color: black;
-    font-size: 25pt;
+#quote .email-2 {
+    font-size: 22pt;
 }
 
-.quote-col2 {
-    display: inline-block;
-    width: 45%;
+#quote img {
+    float: left;
+    width: 80%;
+    margin-top: 100px;
+    margin-right: -120px;
 }
 
-.quote-col2 img {
-    max-width: 100%;
+#quote em {
+    font-style: italic;
 }
-
-@media screen and (max-width: 736px) {
-    .quote-col1 {
-        display: block;
-        width: 100%;
-    }
-
-    .quote-col2 {
-        display: block;
-        width: 100%;
-    }
 }
 
 #logo footer {
