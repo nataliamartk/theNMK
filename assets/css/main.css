@@ -371,57 +371,6 @@ body.is-touch .main {
     }
 }
 
-/* Quote of the day */
-#quote {
-    color: #d05607;
-    background-color: #e6e6e6;
-    font-family: Futura-bold;
-    text-align: left;
-}
-
-.quote-col {
-    display: inline-block;
-    width: 40%;
-}
-
-#quote h1 {
-    font-size: 38pt;
-}
-
-#quote p {
-    font-family: Futura-book;
-    font-size: 12pt;
-    margin-bottom: 10px;
-}
-
-#quote a {
-    color: gray;
-    text-decoration: none;
-}
-
-#quote .separator {
-    background-color: #d05607;
-}
-
-#quote .email-1 {
-    font-family: Futura-book;
-    font-size: 25pt;
-}
-
-#quote .email-2 {
-    font-size: 22pt;
-}
-
-#quote img {
-    float: left;
-    width: 500px;
-}
-
-#quote em {
-    font-style: italic;
-}
-}
-
 #logo footer {
     font-family: Futura-book;
     position: absolute;
