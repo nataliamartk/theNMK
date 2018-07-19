@@ -313,6 +313,7 @@ body.is-touch .main {
     font-size: 38pt;
     color: #d05607;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .video-wrapper {
@@ -334,6 +335,10 @@ body.is-touch .main {
     font-family: Futura-book;
     font-size: 12pt;
     margin-top: 20px;
+}
+
+#video .separator {
+    background-color: #d05607;
 }
 
 /* news section */
