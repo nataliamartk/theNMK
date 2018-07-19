@@ -308,22 +308,32 @@ body.is-touch .main {
 }
 
 /* video section */
-#video .content {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; 
-    height: 0; 
-    overflow: hidden;
+#video h1 {
+    font-family: Futura-bold;
+    font-size: 38pt;
+    color: #d05607;
+    margin-bottom: 20px;
 }
 
-#video iframe,
-#video object,
-#video embed {
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#video p {
+    font-family: Futura-book;
+    font-size: 12pt;
+    margin-top: 20px;
 }
 
 /* news section */
@@ -390,6 +400,56 @@ body.is-touch .main {
     }
 }
 
+/* quote section */
+#quote {
+    color: #d05607;
+    background-color: #e6e6e6;
+    font-family: Futura-bold;
+    text-align: left;
+}
+
+.quote-col {
+    display: inline-block;
+    width: 40%;
+}
+
+#quote h1 {
+    font-size: 38pt;
+}
+
+#quote .separator {
+    background-color: #d05607;
+}
+
+.quote-date {
+    color: black;
+    font-family: Futura-book;
+}
+
+.quote-text {
+    font-family: Futura-book;
+    font-size: 25pt;
+}
+
+.quote-author {
+    font-size: 22pt;
+    color: black;
+    text-align: right;
+}
+
+@media screen and (max-width: 736px) {
+    .quote-col {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .quote-col {
+        width: 100%;
+    }
+}
+
+/* logo section */
 #logo footer {
     font-family: Futura-book;
     position: absolute;
